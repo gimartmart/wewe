@@ -1,4 +1,0 @@
-фикс weather
-фикс voicerole
-сделать и добавить в бд чтобы captcha был командой как sreport
-сделать команду welcome и добавить в бд как sreport
