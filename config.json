@@ -1,0 +1,20 @@
+{
+  "TOKEN": "",
+
+  "YOUTUBE_API_KEY": "AIzaSyCK7iGCVS9Z-53JybFmVsYx5mNTTh6SGp8",
+
+  "SOUNDCLOUD_CLIENT_ID": "758823847515390012",
+
+  "MAX_PLAYLIST_SIZE": 15,
+
+  "PREFIX": "!",
+
+  "PRUNING": false,
+
+  "DEFAULT_LANG": "ru-RU",
+
+  "ownerid":[
+    ""
+  ]
+
+}
