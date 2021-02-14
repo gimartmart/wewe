@@ -1,0 +1,657 @@
+     <!DOCTYPE html>
+<html lang="ru">
+
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="./2.jpg" type="image/png">
+<title>Holo</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/main.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="fonts/flaticon.css" rel="stylesheet">
+<link href="css/ionicons.min.css" rel="stylesheet">
+
+<!-- JavaScripts -->
+<script src="js/modernizr.js"></script>
+
+<!-- Online Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Montserrat:300,400,500,600,700,800" rel="stylesheet">
+<link href="../../../../use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="position-center-center">
+    <div class="ldr"></div>
+  </div>
+</div>
+
+<!-- Wrap -->
+<div id="wrap">
+
+  <!-- header -->
+  <header class="sticky">
+    <div class="container">
+
+      <!-- Logo -->
+      <div class="logo"> <a href="http://holobot.xyz/"><h1>Holo</h1></a> </div>
+      <nav class="navbar ownmenu navbar-expand-lg">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        </div>
+      </nav>
+    </div>
+    <div class="clearfix"></div>
+  </header>
+
+  <!-- HOME MAIN  -->
+  <section class="simple-head" data-stellar-background-ratio="0.5" id="hme">
+    <!-- Particles -->
+    <div id="particles-js"></div>
+    <div class="position-center-center">
+      <div class="container text-center">
+        <h1>КОМАНДЫ</h1>
+    </div>
+  </section>
+
+  <section id="particles-js" class="simple-head" data-stellar-background-ratio="0.5" id="hme">
+    <div class="container" id="particles-js" >
+      <div align="center" id="particles-js" >
+      </div>
+   <center><p>Более 250 команд бота. Все в рабочем состоянии.</p></center>
+   <center><p>Префикс бота: <b>*</b></p></center>
+
+   <center>
+    <table class="tablee">
+  <tr>
+  <th>Команды</th>
+  <th>Описание</th>
+  <th>Категория</th>
+  </tr>
+<tr>
+   <td>ban @nick причина</td>
+  <td>Банит пользователя.</td>
+  <td>Администрация</td> 
+  </tr>
+    <tr>
+   <td>delgr</td>
+  <td>Выключить приветствия.</td>
+  <td>Администрация</td> 
+  </tr>
+        <tr>
+   <td>setprefix ваш префикс</td>
+  <td>Установить префикс для вашего сервера.</td> 
+  <td>Администрация</td> 
+  </tr>
+<tr>
+  <td>unban nick#tag/id</td>
+  <td>Разбан пользователя по айди или нику.</td>
+  <td>Администрация</td>
+  </tr>
+<tr>
+  <td>say сообщение</td>
+  <td>Написать сообщение от имени бота.</td>
+  <td>Администрация</td>
+  </tr>
+    <tr>
+  <td>esay JSON-код</td>
+  <td>Отправить эмбед, используя JSON-код.</td>
+  <td>Администрация</td>
+  </tr>
+<tr>
+  <td>purge число</td>
+  <td>Удалить определённое количество сообщений в чате.</td>
+  <td>Администрация</td>
+  </tr>
+<tr>
+  <td>welcome id-канала</td>
+  <td>Установить приветствия в канале.</td>
+  <td>Администрация</td>
+  </tr>
+    <tr>
+  <td>exit id-канала</td>
+  <td>Установить канал для уходящих.</td>
+  <td>Администрация</td>
+  </tr>
+    <tr>
+  <td>usend @nick сообщение</td>
+  <td>Отправить сообщение пользователю.</td>
+  <td>Администрация</td>
+  </tr>
+    <tr>
+  <td>autoban on/off</td>
+  <td>Выключить/включить автобан за инвайты.</td>
+  <td>Администрация</td>
+  </tr>
+   <tr>
+  <td>poll ваш опрос</td>
+  <td>Выставить опрос для пользователей.</td>
+  <td>Администрация</td>
+  </tr>
+       <tr>
+  <td>clearwarn @nick</td>
+  <td>Очистить предупреждения пользователя.</td>
+  <td>Администрация</td>
+  </tr>
+
+<!--МОДЕРАЦИЯ -->
+
+<tr>
+  <td>mute @nick время причина</td>
+  <td>Мут пользователя. s - секунды, m - минуты, h- часы, d- дни.</td>
+  <td>Модерация</td>
+  </tr>
+<tr>
+  <td>unmute @nick</td>
+  <td>Размут пользователя.</td>
+  <td>Модерация</td>
+  </tr>
+<tr>
+  <td>warn @nick причина</td>
+  <td>Предупредить пользователя по причине.</td>
+  <td>Модерация</td>
+  </tr>
+<tr>
+  <td>addrole @nick название роли</td>
+  <td>Выдать пользователю роль.</td>
+  <td>Модерация</td>
+  </tr>
+<tr>
+  <td>delrole @nick название роли</td>
+  <td>Забрать у пользователя роль.</td>
+  <td>Модерация</td>
+  </tr>
+    <tr>
+  <td>lock</td>
+  <td>Закрыть всем доступ к каналу.</td>
+  <td>Модерация</td>
+  </tr>
+    <tr>
+  <td>unlock</td>
+  <td>Открыть всем доступ к каналу.</td>
+  <td>Модерация</td>
+  </tr>
+
+<!-- ОБЩИЕ -->
+
+<tr>
+  <td>help</td>
+  <td>Отображение всех доступных команд.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>profile @nick</td>
+  <td>Карточка пользователя.</td>
+  <td>Общие</td>
+  </tr>
+        <tr>
+  <td>lb lvl/rob</td>
+  <td>Таблица рекордов по воровстве и уровне.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>avatar @nick</td>
+  <td>Отображение аватара пользователя.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>ping</td>
+  <td>Пинг бота.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>userinfo @nick</td>
+  <td>Отображение информации пользователя.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>botinfo</td>
+  <td>Информация о боте.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>donate</td>
+  <td>Реквизиты для доната.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>invite</td>
+  <td>Информация для приглашения бота.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>serverinfo</td>
+  <td>Информация о сервере.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>cinv</td>
+  <td>Создать ссылку-приглашение.</td>
+  <td>Общие</td>
+  </tr>
+        <tr>
+  <td>setmale</td>
+  <td>Внести свой пол в паспорт.</td>
+  <td>Общие</td>
+  </tr>
+        <tr>
+  <td>setcountry</td>
+  <td>Внести страну в паспорт.</td>
+  <td>Общие</td>
+  </tr>
+        <tr>
+  <td>setyears</td>
+  <td>Внести возраст в паспорт.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>report @nick причина</td>
+  <td>Отправить жалобу на пользователя.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>idea ваша идея</td>
+  <td>Предложить администратору сервера идею.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>dev идея</td>
+  <td>Предложить создателю бота идею.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>roleinfo название роли</td>
+  <td>Информация о роли.</td>
+  <td>Общие</td>
+  </tr>
+    <tr>
+  <td>channelinfo</td>
+  <td>Информация о канале, в котором напишите команду.</td>
+  <td>Общие</td>
+  </tr>
+   <tr>
+  <td>serverinfo</td>
+  <td>Список серверов, на которых есть бот.</td>
+  <td>Общие</td>
+  </tr>
+   <tr>
+  <td>si id-сервера</td>
+  <td>Информация о сервере, на котором есть бот.</td>
+  <td>Общие</td>
+  </tr>
+       <tr>
+  <td>DM</td>
+  <td>Запретить боту присылать вам личные сообщения.</td>
+  <td>Общие</td>
+  </tr>
+       <tr>
+  <td>chekwarn @nick</td>
+  <td>Проверить предупреждения пользователя.</td>
+  <td>Общие</td>
+  </tr>
+
+<!--ФАН -->
+
+   <tr>
+  <td>someone сообщение</td>
+  <td>Упоминает определённого пользователя с сообщением.</td>
+  <td>Фан</td>
+  </tr>
+           <tr>
+  <td>joke</td>
+  <td>Смешные (нет) шутки.</td>
+  <td>Фан</td>
+  </tr>
+   <tr>
+  <td>iq @nick</td>
+  <td>IQ пользователя.</td>
+  <td>Фан</td>
+  </tr>
+       <tr>
+  <td>sexyrate</td>
+  <td>Ваш сексуальный рейтинг.</td>
+  <td>Фан</td>
+  </tr>
+        <tr>
+  <td>8ball ваш вопрос</td>
+  <td>Спросить о чём-нибудь у магического шара.</td>
+  <td>Фан</td>
+  </tr>
+   <tr>
+  <td>ship @nick @nick</td>
+  <td>Шипперить пользователей.</td>
+  <td>Фан</td>
+  </tr>
+   <tr>
+  <td>love @nick</td>
+  <td>Показатель любви к пользователю.</td>
+  <td>Фан</td>
+  </tr>
+   <tr>
+  <td>rep @nick +/-</td>
+  <td>Повысить/понизить репутацию пользователю.</td>
+  <td>Фан</td>
+  </tr>
+      <td>marry @nick</td>
+  <td>Подать заявку на заняшество.</td>
+  <td>Фан</td>
+  </tr>
+    <tr>
+  <td>divorce</td>
+  <td>Развестись с пользователем.</td>
+  <td>Фан</td>
+  </tr>
+    <tr>
+  <td>yes</td>
+  <td>Принять заявку на заняшество.</td>
+  <td>Фан</td>
+  </tr>
+    <tr>
+  <td>no</td>
+  <td>Отклонить заявку на заняшество.</td>
+  <td>Фан</td>
+  </tr>
+    <tr>
+  <td>passport</td>
+  <td>Ваш паспорт.</td>
+  <td>Фан</td>
+  </tr>
+      <td>compliment @nick</td>
+  <td>Сделать пользователю комплимент.</td>
+  <td>Фан</td>
+  </tr>
+      <tr>
+  <td>nep</td>
+  <td>Случайная непка.</td>
+  <td>Фан</td>
+  </tr>
+    <tr>
+  <td>at</td>
+  <td>Случайная аватарка для вашего профиля.</td>
+  <td>Фан</td>
+  </tr>
+    <tr>
+  <td>thigh</td>
+  <td>Ножки японочек. Вуаафф :3 <b>(NSFW)</b></td>
+  <td>Фан</td>
+  </tr>
+        <tr>
+  <td>cat</td>
+  <td>Отправит случайного котёнка.</td>
+  <td>Фан</td>
+  </tr>
+    <tr>
+  <td>neko</td>
+  <td>Отправит случайную Неко.</td>
+  <td>Фан</td>
+  </tr>
+    <tr>
+  <td>waifu</td>
+  <td>Отправит случайную вайфу.</td>
+  <td>Фан</td>
+  </tr>
+    <tr>
+  <td>meme</td>
+  <td>Отправит случайный мем.</td>
+  <td>Фан</td>
+  </tr>
+    <tr>
+  <td>face</td>
+  <td>Отправит случайное лицо.</td>
+  <td>Фан</td>
+  </tr>
+       <tr>
+  <td>joke</td>
+  <td>Отправляет в чат смешные (нет) шутки.</td>
+  <td>Фан</td>
+  </tr>
+
+
+
+<!--РАДИО -->
+
+
+<tr>
+  <td>r_europa+</td>
+  <td>Включить радио Europa Plus.</td>
+  <td>Радио</td>
+  </tr>
+    <tr>
+  <td>r_anime</td>
+  <td>Включить радио AnisonFM.</td>
+  <td>Радио</td>
+  </tr>
+    <tr>
+  <td>r_record</td>
+  <td>Включить радио Radio Record.</td>
+  <td>Радио</td>
+  </tr>
+    <tr>
+  <td>r_trap</td>
+  <td>Включить радио Record Trap.</td>
+  <td>Радио</td>
+  </tr>
+        <tr>
+  <td>r_jpop</td>
+  <td>Включить радио JPOP.</td>
+  <td>Радио</td>
+  </tr>
+        <tr>
+  <td>r_kpop</td>
+  <td>Включить радио KPOP.</td>
+  <td>Радио</td>
+  </tr>
+    <tr>
+  <td>r_leave</td>
+  <td>Выключить радио.</td>
+  <td>Радио</td>
+  </tr>
+
+<!--РЕАКЦИИ -->
+
+
+<tr>
+  <td>hug @nick</td>
+  <td>Обнять пользователя.</td>
+  <td>Реакции</td>
+  </tr>
+    <tr>
+  <td>kiss @nick</td>
+  <td>Поцеловать пользователя.</td>
+  <td>Реакции</td>
+  </tr>
+    <tr>
+  <td>poke @nick</td>
+  <td>Дразнить пользователя.</td>
+  <td>Реакции</td>
+  </tr>
+    <tr>
+  <td>pat @nick</td>
+  <td>Погладить пользователя.</td>
+  <td>Реакции</td>
+  </tr>
+  <tr>
+  <td>wink @nick</td>
+  <td>Подмигнуть пользователю.</td>
+  <td>Реакции</td>
+  </tr>
+  <tr>
+  <td>disgust</td>
+  <td>Вызывать отвращение.</td>
+  <td>Реакции</td>
+  </tr>
+  <tr>
+  <td>slap @nick</td>
+  <td>Шлёпнуть пользователя.</td>
+  <td>Реакции</td>
+  </tr>
+  <tr>
+  <td>hand @nick</td>
+  <td>Взять за руку пользователя.</td>
+  <td>Реакции</td>
+  </tr>
+      <tr>
+  <td>swear @nick</td>
+  <td>Сказать пользователю не ругаться.</td>
+  <td>Реакции</td>
+  </tr>
+      <tr>
+  <td>bite @nick</td>
+  <td>Укусить пользователя.</td>
+  <td>Реакции</td>
+  </tr>
+    <tr>
+  <td>baka @nick</td>
+  <td>Обозвать пользователя.</td>
+  <td>Реакции</td>
+  </tr>
+     <tr>
+  <td>lick @nick</td>
+  <td>Лизнуть пользователя.</td>
+  <td>Реакции</td>
+  </tr>
+        <tr>
+  <td>dance @nick</td>
+  <td>Танцевать с пользователем.</td>
+  <td>Реакции</td>
+  </tr>
+        <tr>
+  <td>tickle @nick</td>
+  <td>Щекотать пользователя.</td>
+  <td>Реакции</td>
+  </tr>
+  
+ 
+<!--Логирование -->
+ 
+ 
+<tr>
+  <td>logs</td>
+  <td>Посмотреть информацию о логах.</td>
+  <td>Логирование</td>
+  </tr>
+<tr>
+  <td>enable число/all</td>
+  <td>Включить определённое логирование или все.</td>
+  <td>Логирование</td>
+  </tr>
+<tr>
+  <td>disable число/all</td>
+  <td>Выключить определённое логирование или все.</td>
+  <td>Логирование</td>
+  </tr>
+<tr>
+  <td>reset</td>
+  <td>Обнулить настройки логирования.</td>
+  <td>Логирование</td>
+  </tr>
+<tr>
+  <td>setchannel ID-канала</td>
+  <td>Установить логирование для канала.</td>
+  <td>Логирование</td>
+  </tr>
+
+
+<!--ЭКОНОМИКА -->
+
+<tr>
+  <td>pay @nick сумма</td>
+  <td>Передать определённое количество некоинов.</td>
+  <td>Экономика</td>
+  </tr>
+   <tr>
+  <td>bal @nick</td>
+  <td>Баланс пользователя.</td>
+  <td>Экономика</td>
+  </tr>
+   <tr>
+  <td>monthly</td>
+  <td>Получить ежемесячную награду.</td>
+  <td>Экономика</td>
+  </tr>
+   <tr>
+  <td>daily</td>
+  <td>Получить ежедневную награду.</td>
+  <td>Экономика</td>
+  </tr>
+   <tr>
+  <td>rob @nick</td>
+  <td>Ограбить пользователя.</td>
+  <td>Экономика</td>
+  </tr>
+
+<!--УТИЛИТЫ -->
+
+   <tr>
+  <td>insta username</td>
+  <td>Посмотреть информацию о аккаунте инстаграм.</td>
+  <td>Утилиты</td>
+  </tr>
+       <tr>
+  <td>weather город</td>
+  <td>Погода в указанном городе.</td>
+  <td>Утилиты</td>
+  </tr>
+       <tr>
+  <td>tr <язык, на который переводить> <текст></td>
+  <td>Яндекс-переводчик.</td>
+  <td>Утилиты</td>
+  </tr>
+       <tr>
+  <td>tag тег (4 цифры)</td>
+  <td>Информация о теге.</td>
+  <td>Утилиты</td>
+  </tr>
+
+  </center>
+
+
+<!--LiveInternet counter--><script type="text/javascript">
+document.write('<a href="//www.liveinternet.ru/click" '+
+'target="_blank"><img src="//counter.yadro.ru/hit?t26.6;r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+''+screen.height+''+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+';h'+escape(document.title.substring(0,150))+';'+Math.random()+
+'" alt="" title="LiveInternet: number of visitors for today is'+
+' shown" '+
+'border="0" width="88" height="15"></a>')
+</script><!--/LiveInternet-->
+
+
+         </div>
+    </footer>
+
+<!-- Script -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/particles.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/navbar-fixed.js"></script>
+</body>    
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topNubex').fadeIn();
+  } else {
+  $('#topNubex').fadeOut();
+  }
+  });
+  $('#topNubex').click(function() {
+  $('body,html').animate({scrollTop:0},700);
+  });
+  });
+  </script>
+</html>
